@@ -1,0 +1,12 @@
+{
+  "name": "XSS-Blocker",
+  "version": "1.0",
+  "description": "BLocks XSS",
+  "permissions": ["webRequest", "<all_urls>", "webRequestBlocking"],
+  "background": {
+    "scripts": ["background.js", "adblock.js"],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
+
